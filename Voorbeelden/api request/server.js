@@ -46,7 +46,7 @@ const req = https.request(options, (res) => {
 
 req.end();
 
-
+var profitability =
 
 
 
