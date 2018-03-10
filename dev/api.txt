@@ -1,0 +1,20 @@
+
+Uitleg
+https://www.cryptocompare.com/api
+
+Makkelijke api coinlist
+https://www.cryptocompare.com/api/data/coinlist/
+
+    host: 'www.cryptocompare.com',
+    port: '',
+    path: '/api/data/coinlist',
+    method: 'GET',
+
+Lastige api base
+https://min-api.cryptocompare.com/
+
+
+
+((hashrate * block_reward) / current_difficulty) * (1 - pool_fee) * 3600
+
+((30 * 3) / 2958716201109720) * 3600

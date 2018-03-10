@@ -1,0 +1,94 @@
+
+
+
+coinlist api {
+	- id
+	- timestamp
+
+	coins:
+		- btc {
+			crymptocompare {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			bitconnect {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			}
+		- eth {
+			crymptocompare {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			bitconnect {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			}
+
+}
+
+
+
+
+
+
+coinlist calculated {
+	- id
+	- timestamp
+
+	coins:
+		- btc {
+				- id
+				- naam
+				- afkorting
+				- prijs
+				- block time
+				- difficulty
+				- block reward
+				- profitability per 1mh/s
+			}
+			
+		- eth {
+			crymptocompare {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			bitconnect {
+					- id
+					- naam
+					- afkorting
+					- prijs
+					- block time
+					- difficulty
+					- block reward
+					}
+			}
+
+}
